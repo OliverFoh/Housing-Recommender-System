@@ -1,0 +1,11 @@
+/* pages/preference/preference.wxss */
+.page{
+  width: 100%;
+  height: 100%;
+}
+.btn{
+  position: relative;
+  width: 90%;
+  margin-top: 20%;
+  margin: auto;
+}

@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "查询结果",
+  "usingComponents": {
+    "i-card": "../../dist/card/index",
+    "i-tag": "../../dist/tag/index",
+    "wux-prompt": "../../lib/prompt/index"
+  },
+  "enablePullDownRefresh": false 
+}

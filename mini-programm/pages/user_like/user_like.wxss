@@ -1,0 +1,8 @@
+
+.room{
+  margin-top: 10px;
+}
+.tags{
+  display: flex;
+  justify-content: space-between
+}

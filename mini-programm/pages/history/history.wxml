@@ -1,0 +1,11 @@
+<!-- 房源列表 -->
+<view wx:for="{{roomList}}" data-id="{{item.id}}"  class="room" bindtap="toDetailPage">
+  <i-card  title="{{item.title}}" extra="{{item.price}}元/月" thumb="{{item.cover}}" >
+    <view slot="content" class="tags">
+      <i-tag class="i-tags" color="red"  type="border" >{{item.rentalMethod}}</i-tag>
+      <i-tag  color="green" class="i-tags"  type="border" >{{item.roomType}}</i-tag>
+      <i-tag  color="blue" class="i-tags"  type="border" >{{item.houseType}}</i-tag>
+    </view>
+    <view slot="footer">浏览时间：{{item.browseTime}}</view>
+</i-card>
+</view>

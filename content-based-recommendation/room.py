@@ -1,0 +1,44 @@
+# 房屋字段描述
+class RoomField:
+    def __init__(self):
+        self.id = None   # 唯一id
+        self.title = None  # 房屋标题
+        self.city = None  # 房屋所在城市
+        self.district = None  # 房屋所在区
+        self.road = None  # 房屋所在路
+        self.community = None  # 房屋所在小区名
+        self.upTime = None  # 上传时间
+        self.saveTime = None  # 保存时间
+        self.price = None  # 价格
+        self.payType = None  # 支付类型
+        self.rentalMethod = None  # 租赁方式(整租合租等）
+        self.houseType = None  # 房屋类型（公寓，商户等）
+        self.roomType = None  # 户型（三室一厅）
+        self.areaSize = None  # 房屋大小
+        self.decorateType = None  # 装修类型（精装、毛坯）
+        self.ori = None  # 房屋朝向
+        self.floorInfo = None  # 楼层信息
+        self.hasTV = None  # 电视
+        self.hasRefrigerator = None  # 冰箱
+        self.hasToilet = None  # 卫生间
+        self.hasSmartLock = None  # 智能门锁
+        self.hasHeat = None  # 暖气
+        self.hasWashingMachine = None  # 洗衣机
+        self.hasBalcony = None  # 阳台
+        self.hasCook = None  # 厨房
+        self.hasAirConditioner = None  # 空调
+        self.hasWaterHeater = None  # 热水器
+        self.hasVentilator = None  # 油烟机
+        self.hasGasStove = None  # 燃气灶
+        self.hasBed = None  # 床
+        self.hasWardrobe = None  # 衣柜
+        self.hasSofa = None  # 沙发
+        self.hasWifi = None  # 网络
+        self.traffic = None  # 交通
+        self.roomNum = None  # 房间个数
+        self.bathNum = None  # 浴室个数
+        self.hallsNum = None  # 客厅个数
+        self.description = None  # 房东描述
+        self.picUrl = None  # 房屋图片地址
+        self.picPath = None  # 房屋图片本地路径
+        self.url = None  # 房源url

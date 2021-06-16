@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "i-card": "../../dist/card/index",
+    "i-tag": "../../dist/tag/index"
+  },
+  "navigationBarTitleText": "浏览记录"
+}

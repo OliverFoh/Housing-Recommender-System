@@ -1,0 +1,17 @@
+<!-- 房源列表 -->
+<view hidden="{{!hasResults}}" wx:for="{{roomList}}" data-id="{{item.id}}" data-city="{{item.city}}"  class="room" bindtap="toDetailPage">
+  <i-card  title="{{item.title}}" extra="{{item.price}}元/月" thumb="{{item.cover}}" >
+    <view slot="content" class="tags">
+      <i-tag class="i-tags" color="red"  type="border" >{{item.rentalMethod}}</i-tag>
+      <i-tag  color="green" class="i-tags"  type="border" >{{item.roomType}}</i-tag>
+      <i-tag  color="blue" class="i-tags"  type="border" >{{item.houseType}}</i-tag>
+
+    </view>
+    <view slot="footer">{{item.city+item.district+item.road+item.community}}</view>
+</i-card>
+</view>
+
+<view class="blank_results">
+  <wux-prompt visible="{{ !hasResults }}" title="空空如也" text="未找到内容" />
+</view>
+

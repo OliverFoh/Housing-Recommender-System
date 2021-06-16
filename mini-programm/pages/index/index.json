@@ -1,0 +1,13 @@
+
+{
+  "navigationBarTitleText": "首页",
+  "usingComponents": {
+    "i-card": "../../dist/card/index",
+    "i-tag": "../../dist/tag/index",
+    "wux-filterbar": "../../lib/filterbar/index",
+    "wux-fab-button": "../../lib/fab-button/index",
+    "wux-search-bar": "../../lib/search-bar/index"
+},
+    "enablePullDownRefresh": false ,
+    "backgroundTextStyle": "dark" 
+}

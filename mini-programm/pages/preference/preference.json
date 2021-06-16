@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "个人偏好设置",
+  "usingComponents": {
+      "wux-cell-group": "../../lib/cell-group/index",
+      "wux-cell": "../../lib/cell/index",
+      "wux-cascader": "../../lib/cascader/index",
+      "wux-icon": "../../lib/icon/index",
+      "wux-button": "../../lib/button/index",
+      "wux-slider": "../../lib/slider/index",
+      "wux-radio-group": "../../lib/radio-group/index",
+      "wux-radio": "../../lib/radio/index",
+      "wux-popup-select": "../../lib/popup-select/index"
+  }
+}

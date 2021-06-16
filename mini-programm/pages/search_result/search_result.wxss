@@ -1,0 +1,12 @@
+/* pages/search_result/search_result.wxss */
+.room{
+  margin-top: 10px;
+}
+.tags{
+  display: flex;
+  justify-content: space-between
+}
+.blank_results{
+  background-color: white;
+  margin-top: 50%;
+}
