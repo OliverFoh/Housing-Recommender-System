@@ -12,7 +12,7 @@ Page({
     onLoad: function () {
         // 实例化API核心类
         qqmapsdk = new QQMapWX({
-            key: '7QTBZ-ISUKD-NPK47-PBICF-VTMTF-XSBTC'
+            key: ''
         });
     },
     onShow: function () {
